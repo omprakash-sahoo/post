@@ -1,0 +1,909 @@
+{
+	"id": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+	"name": "POST",
+	"description": "",
+	"order": [
+		"43995219-810c-c5cb-53c8-efb88a4d0a14",
+		"6949bf87-626d-d470-79e0-ec98898bfae1",
+		"efb6ac05-884c-0a80-92df-54099f428e36",
+		"00d12d1c-54b8-1408-1f55-1e4aaa5be935",
+		"7c8c32da-1d70-5e7d-d528-a392c8e0f443",
+		"5729cffc-8745-b01e-1d7c-f994d5ab1add",
+		"a3dc5b8e-5183-4c0b-6334-154b78384d80",
+		"01078e17-f055-0ae8-3ff0-f3652c976059",
+		"8aba603c-e850-1bca-8430-dbdd4fee273b",
+		"a790c1ab-ea9d-f822-0b42-709ffb3e13b4",
+		"5c98261a-b734-3e0f-4259-f6265b6126c8",
+		"a3edadc7-ad9a-8e67-fbed-960ec7e7ec69"
+	],
+	"folders": [
+		{
+			"name": "final_quote",
+			"description": "",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"order": [
+				"77874bab-6c12-9941-0dd9-dbea934e2454",
+				"676e93cb-4d11-a08f-aae2-c7568b7eca5f",
+				"fc08e781-97fe-6ee9-da5d-96591c9d191e",
+				"3186dc0e-1ca0-42fe-10ff-c0b3ecfdf231",
+				"7eb1d73e-99ad-31f8-4f45-db544a7bcf00",
+				"1457e676-93c7-dd20-d154-51f10f52c940",
+				"3aaa8d9d-92cf-58dc-efbc-3a695e690547",
+				"180a6b19-a757-fbec-b65c-da071fa1d495",
+				"bcfdc22e-79d5-c4b7-50fb-b2931b1d0475",
+				"944fece4-44b3-1244-ee4f-5d7bb0c395e6",
+				"24d3880a-329f-65f1-1fcb-0352e70c9cb8"
+			],
+			"owner": "12464143",
+			"folders_order": [],
+			"id": "0d343fe6-d430-6089-0675-8ae23f146e44"
+		},
+		{
+			"name": "payment",
+			"description": "",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"order": [
+				"143983a0-a28b-3b74-efec-0833bad45d00",
+				"1c7dcb81-08af-25cd-730e-169fecb13c88",
+				"4f31acd3-1d13-64a0-9bd9-4ebb599f15e2"
+			],
+			"owner": "12464143",
+			"folders_order": [],
+			"id": "671bea52-daf2-87cc-c277-b58b12cb79be"
+		},
+		{
+			"name": "pdf",
+			"description": "",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"order": [
+				"b849f299-db1e-b707-fb8e-d6b86f6ed1f7"
+			],
+			"owner": "12464143",
+			"folders_order": [],
+			"id": "f5b92f7d-e753-c5ad-ed9f-7446f13142f3"
+		}
+	],
+	"folders_order": [
+		"0d343fe6-d430-6089-0675-8ae23f146e44",
+		"671bea52-daf2-87cc-c277-b58b12cb79be",
+		"f5b92f7d-e753-c5ad-ed9f-7446f13142f3"
+	],
+	"timestamp": 1598260147310,
+	"owner": "12464143",
+	"public": false,
+	"requests": [
+		{
+			"id": "00d12d1c-54b8-1408-1f55-1e4aaa5be935",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/post/addressdetails",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Addressdetails",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598437637237,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "\r\n{\r\n\"makemodel\":\"bajaj\",\r\n\"rtolocation\":\"Ap-09-Guntur\",\r\n\"vregnum\":\"Ap-09-cd-2255\",\r\n\"mfgyear\":\"2019\",\r\n\"ploc\":\"kollur\",\r\n\"pstate\":\"AP\",\r\n\"padd\":\"Gayatrinagar\",\r\n\"ppin\":\"522324\",\r\n\"cpin\":\"522324\",\r\n\"cloc\":\"kollur\",\r\n\"cstate\":\"AP\",\r\n\"cadd\":\"GayatriNagar\",\r\n\"cdistrict\":\"Guntur\",\r\n\"pdistrict\":\"Guntur\",\r\n\"photo\":\"sdf\",\r\n\"go1_totalgrosspremium\":\"45678.89\"\r\n\r\n}"
+		},
+		{
+			"id": "01078e17-f055-0ae8-3ff0-f3652c976059",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/post/marine",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "marine",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598502521393,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\"name\":\"manasa\",\r\n\"buy_new_policy\":\"fdgfg\",\r\n\"manufacturing\":\"2019\",\r\n\"type_of_insurance\":\"mils\",\r\n\"sum_insured\":\"56789\",\r\n\"email\":\"mm@gmail.com\",\r\n\"contact\":\"8989898989\",\r\n\"description\":\"dgfdtedhgf\",\r\n\"posp_id\":\"P0000011\"\r\n}"
+		},
+		{
+			"id": "143983a0-a28b-3b74-efec-0833bad45d00",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/post/payment/godigit",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Godigit",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598503884789,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "671bea52-daf2-87cc-c277-b58b12cb79be",
+			"rawModeData": "{\r\n\"go1_applicationid\":\"2100\"\r\n}"
+		},
+		{
+			"id": "1457e676-93c7-dd20-d154-51f10f52c940",
+			"headers": "//Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost/post/fquote/iffco",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "iffco",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598432377730,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "0d343fe6-d430-6089-0675-8ae23f146e44",
+			"rawModeData": "{\n\"makemodel\":\"dddd\",\n\"rtolocation\":\"AP-29\",\n\"vregnum\":\"AP29cb2541\",\n\"mfgyear\":\"2019\",\n\"cpa\":\"Yes\",\n\"roadtax\":\"Yes\",\n\"pa\":\"Yes\",\n\"rsa\":\"Yes\",\n\"zd\":\"Yes\",\n\"ep\":\"Yes\",\n\"consu\":\"Yes\",\n\"tyrep\":\"Yes\",\n\"kr\":\"Yes\",\n\"rti\":\"Yes\",\n\"ncbp\":\"Yes\",\n\"condr\":\"Yes\",\n\"lpb\":\"Yes\",\n\"rtppd\":\"Yes\",\n\"regdate1\":\"21/08/2019\",\n\"policyexp\":\"21/08/2020\",\n\"vncb\":\"40\",\n\"currentncb\":\"20\",\n\"setidv\":\"20\",\n\"previouscliam1\":\"NO\",\n\"img\":\"Yes\",\n\"idv\":\"80000\",\n\"go1_totalgrosspremium\":\"2500\",\n\"anti\":\"Yes\",\n\"auto\":\"Yes\"\n}"
+		},
+		{
+			"id": "180a6b19-a757-fbec-b65c-da071fa1d495",
+			"headers": "//Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost/post/fquote/coco",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "coco",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598432417506,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "0d343fe6-d430-6089-0675-8ae23f146e44",
+			"rawModeData": "{\n\"makemodel\":\"dddd\",\n\"rtolocation\":\"AP-29\",\n\"vregnum\":\"AP29cb2541\",\n\"mfgyear\":\"2019\",\n\"cpa\":\"Yes\",\n\"roadtax\":\"Yes\",\n\"pa\":\"Yes\",\n\"rsa\":\"Yes\",\n\"zd\":\"Yes\",\n\"ep\":\"Yes\",\n\"consu\":\"Yes\",\n\"tyrep\":\"Yes\",\n\"kr\":\"Yes\",\n\"rti\":\"Yes\",\n\"ncbp\":\"Yes\",\n\"condr\":\"Yes\",\n\"lpb\":\"Yes\",\n\"rtppd\":\"Yes\",\n\"regdate1\":\"21/08/2019\",\n\"policyexp\":\"21/08/2020\",\n\"vncb\":\"40\",\n\"currentncb\":\"20\",\n\"setidv\":\"20\",\n\"previouscliam1\":\"NO\",\n\"img\":\"Yes\",\n\"idv\":\"80000\",\n\"go1_totalgrosspremium\":\"2500\",\n\"anti\":\"Yes\",\n\"auto\":\"Yes\"\n}"
+		},
+		{
+			"id": "1c7dcb81-08af-25cd-730e-169fecb13c88",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/post/payment/royal",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "royal",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598504900623,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "671bea52-daf2-87cc-c277-b58b12cb79be",
+			"rawModeData": "{\r\n\"rs_gproposal15_premium\":\"5214521\",\r\n\"rs_gproposal15_quoteid\":\"2100\"\r\n}"
+		},
+		{
+			"id": "24d3880a-329f-65f1-1fcb-0352e70c9cb8",
+			"headers": "//Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost/post/fquote/raheja",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598435278034,
+			"name": "raheja",
+			"description": "",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"responses": [],
+			"rawModeData": "{\n\"makemodel\":\"dddd\",\n\"rtolocation\":\"AP-29\",\n\"vregnum\":\"AP29cb2541\",\n\"mfgyear\":\"2019\",\n\"cpa\":\"Yes\",\n\"roadtax\":\"Yes\",\n\"pa\":\"Yes\",\n\"rsa\":\"Yes\",\n\"zd\":\"Yes\",\n\"ep\":\"Yes\",\n\"consu\":\"Yes\",\n\"tyrep\":\"Yes\",\n\"kr\":\"Yes\",\n\"rti\":\"Yes\",\n\"ncbp\":\"Yes\",\n\"condr\":\"Yes\",\n\"lpb\":\"Yes\",\n\"rtppd\":\"Yes\",\n\"regdate1\":\"21/08/2019\",\n\"policyexp\":\"21/08/2020\",\n\"vncb\":\"40\",\n\"currentncb\":\"20\",\n\"setidv\":\"20\",\n\"previouscliam1\":\"NO\",\n\"img\":\"Yes\",\n\"idv\":\"80000\",\n\"go1_totalgrosspremium\":\"2500\",\n\"anti\":\"Yes\",\n\"auto\":\"Yes\"\n}"
+		},
+		{
+			"id": "3186dc0e-1ca0-42fe-10ff-c0b3ecfdf231",
+			"headers": "//Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost/post/fquote/kotak",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "kotak",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598432328949,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "0d343fe6-d430-6089-0675-8ae23f146e44",
+			"rawModeData": "{\n\"makemodel\":\"dddd\",\n\"rtolocation\":\"AP-29\",\n\"vregnum\":\"AP29cb2541\",\n\"mfgyear\":\"2019\",\n\"cpa\":\"Yes\",\n\"roadtax\":\"Yes\",\n\"pa\":\"Yes\",\n\"rsa\":\"Yes\",\n\"zd\":\"Yes\",\n\"ep\":\"Yes\",\n\"consu\":\"Yes\",\n\"tyrep\":\"Yes\",\n\"kr\":\"Yes\",\n\"rti\":\"Yes\",\n\"ncbp\":\"Yes\",\n\"condr\":\"Yes\",\n\"lpb\":\"Yes\",\n\"rtppd\":\"Yes\",\n\"regdate1\":\"21/08/2019\",\n\"policyexp\":\"21/08/2020\",\n\"vncb\":\"40\",\n\"currentncb\":\"20\",\n\"setidv\":\"20\",\n\"previouscliam1\":\"NO\",\n\"img\":\"Yes\",\n\"idv\":\"80000\",\n\"go1_totalgrosspremium\":\"2500\",\n\"anti\":\"Yes\",\n\"auto\":\"Yes\"\n}"
+		},
+		{
+			"id": "3aaa8d9d-92cf-58dc-efbc-3a695e690547",
+			"headers": "//Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost/post/fquote/sbig",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "sbig",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598432395119,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "0d343fe6-d430-6089-0675-8ae23f146e44",
+			"rawModeData": "{\n\"makemodel\":\"dddd\",\n\"rtolocation\":\"AP-29\",\n\"vregnum\":\"AP29cb2541\",\n\"mfgyear\":\"2019\",\n\"cpa\":\"Yes\",\n\"roadtax\":\"Yes\",\n\"pa\":\"Yes\",\n\"rsa\":\"Yes\",\n\"zd\":\"Yes\",\n\"ep\":\"Yes\",\n\"consu\":\"Yes\",\n\"tyrep\":\"Yes\",\n\"kr\":\"Yes\",\n\"rti\":\"Yes\",\n\"ncbp\":\"Yes\",\n\"condr\":\"Yes\",\n\"lpb\":\"Yes\",\n\"rtppd\":\"Yes\",\n\"regdate1\":\"21/08/2019\",\n\"policyexp\":\"21/08/2020\",\n\"vncb\":\"40\",\n\"currentncb\":\"20\",\n\"setidv\":\"20\",\n\"previouscliam1\":\"NO\",\n\"img\":\"Yes\",\n\"idv\":\"80000\",\n\"go1_totalgrosspremium\":\"2500\",\n\"anti\":\"Yes\",\n\"auto\":\"Yes\"\n}"
+		},
+		{
+			"id": "43995219-810c-c5cb-53c8-efb88a4d0a14",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/post/initialquote",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598290173224,
+			"name": "initial_quote",
+			"description": "",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"responses": [],
+			"rawModeData": "{\r\n    \"rtolocation\":\"ap-09-guntur\",\r\n    \"vregnum\":\"ap-09-2233\",\r\n    \"mfgyear\":\"2018\",\r\n    \"makemodel\":\"bajaj\",\r\n    \"cmobile\":\"89798777878\"\r\n}"
+		},
+		{
+			"id": "4f31acd3-1d13-64a0-9bd9-4ebb599f15e2",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/post/payment/reliance",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "reliance",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598504961725,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "671bea52-daf2-87cc-c277-b58b12cb79be",
+			"rawModeData": "{\r\n\"relipay_proposal_no\":\"5214521\",\r\n\"relipay_net_premium\":\"2100\"\r\n}"
+		},
+		{
+			"id": "5729cffc-8745-b01e-1d7c-f994d5ab1add",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/post/proposaldetails",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598506778747,
+			"name": "proposaldetails",
+			"description": "",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"responses": [],
+			"rawModeData": "{\r\n\"makemodel\":\"bajaj\",\r\n\"rtolocation\":\"Ap-09-Guntur\",\r\n\"vregnum\":\"Ap-09-cd-2255\",\r\n\"mfgyear\":\"2019\",\r\n\"title\":\"ms\",\r\n\"cgender\":\"female\",\r\n\"cfname\":\"omprakash\",\r\n\"clname\":\"sahoo\",\r\n\"caadhar\":\"517241671005\",\r\n\"cpan\":\"BH56J788F8\",\r\n\"cmobile\":\"9502842438\",\r\n\"cdob\":\"12-11-1997\",\r\n\"coccup\":\"employee\",\r\n\"cnname\":\"ram\",\r\n\"cnage\":\"45\",\r\n\"crship\":\"father\",\r\n\"compname\":\"company\",\r\n\"nob\":\"developer\",\r\n\"doi\":\"2017\",\r\n\"compmail\":\"info.k@info.com\",\r\n\"gst\":\"10\",\r\n\"comppan\":\"GH6689G989\",\r\n\"compcpname\":\"david\",\r\n\"compcprelation\":\"collegue\",\r\n\"ploc\":\"kollur\",\r\n\"pstate\":\"AP\",\r\n\"padd\":\"Gayatrinagar\",\r\n\"ppin\":\"522324\",\r\n\"cpin\":\"522324\",\r\n\"cloc\":\"kollur\",\r\n\"cstate\":\"AP\",\r\n\"cadd\":\"GayatriNagar\",\r\n\"cdistrict\":\"Guntur\",\r\n\"pdistrict\":\"Guntur\",\r\n\"venginenum\":\"kollur\",\r\n\"vchassisnum\":\"AP\",\r\n\"preinsurer\":\"Gayatrinagar\",\r\n\"policyno\":\"522324\",\r\n\"prepoled\":\"522324\",\r\n\"prepolsd\":\"kollur\",\r\n\"vfin\":\"AP\",\r\n\"finname1\":\"GayatriNagar\",\r\n\"photo\":\"ram\",\r\n\"go1_totalgrosspremium\":\"45678.89\"\r\n}"
+		},
+		{
+			"id": "5c98261a-b734-3e0f-4259-f6265b6126c8",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/post/engi",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "engi",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598502579989,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\"name\":\"manasa\",\r\n\"buy_new_policy\":\"fdgfg\",\r\n\"manufacturing\":\"2019\",\r\n\"type_of_insurance\":\"mils\",\r\n\"sum_insured\":\"56789\",\r\n\"email\":\"mm@gmail.com\",\r\n\"contact\":\"8989898989\",\r\n\"description\":\"dgfdtedhgf\",\r\n\"posp_id\":\"P0000011\"\r\n}"
+		},
+		{
+			"id": "676e93cb-4d11-a08f-aae2-c7568b7eca5f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/post/fquote/reliance",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598435321747,
+			"name": "fquote_reliance",
+			"description": "",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"responses": [],
+			"rawModeData": "{\r\n\"makemodel\":\"\",\r\n\"rtolocation\":\"AP-29\",\r\n\"vregnum\":\"AP29cb2541\",\r\n\"mfgyear\":\"2019\",\r\n\"cpa\":\"Yes\",\r\n\"roadtax\":\"Yes\",\r\n\"pa\":\"Yes\",\r\n\"rsa\":\"Yes\",\r\n\"zd\":\"Yes\",\r\n\"ep\":\"Yes\",\r\n\"consu\":\"Yes\",\r\n\"tyrep\":\"Yes\",\r\n\"kr\":\"Yes\",\r\n\"rti\":\"Yes\",\r\n\"ncbp\":\"Yes\",\r\n\"condr\":\"Yes\",\r\n\"lpb\":\"Yes\",\r\n\"rtppd\":\"Yes\",\r\n\"regdate1\":\"21/08/2019\",\r\n\"policyexp\":\"21/08/2020\",\r\n\"vncb\":\"40\",\r\n\"currentncb\":\"20\",\r\n\"setidv\":\"20\",\r\n\"previouscliam1\":\"NO\",\r\n\"img\":\"Yes\",\r\n\"idv\":\"80000\",\r\n\"go1_totalgrosspremium\":\"2500\",\r\n\"anti\":\"Yes\",\r\n\"auto\":\"Yes\"\r\n}"
+		},
+		{
+			"id": "6949bf87-626d-d470-79e0-ec98898bfae1",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/post/updquote",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "update_quote",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598343457906,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\"makemodel\":\"Bajaj\",\r\n\"rtolocation\":\"AP-29\",\r\n\"vregnum\":\"AP29cb2541\",\r\n\"mfgyear\":\"2019\",\r\n\"cpa\":\"Yes\",\r\n\"roadtax\":\"Yes\",\r\n\"pa\":\"Yes\",\r\n\"rsa\":\"Yes\",\r\n\"zd\":\"Yes\",\r\n\"ep\":\"Yes\",\r\n\"consu\":\"Yes\",\r\n\"tyrep\":\"Yes\",\r\n\"kr\":\"Yes\",\r\n\"rti\":\"Yes\",\r\n\"ncbp\":\"Yes\",\r\n\"condr\":\"Yes\",\r\n\"lpb\":\"Yes\",\r\n\"rtppd\":\"Yes\",\r\n\"regdate1\":\"21/08/2019\",\r\n\"policyexp\":\"21/08/2020\",\r\n\"vncb\":\"40\",\r\n\"currentncb\":\"20\",\r\n\"setidv\":\"20\",\r\n\"previouscliam1\":\"NO\",\r\n\"img\":\"Yes\",\r\n\"idv\":\"80000\",\r\n\"go1_totalgrosspremium\":\"2500\",\r\n\"anti\":\"Yes\",\r\n\"auto\":\"Yes\"\r\n}"
+		},
+		{
+			"id": "77874bab-6c12-9941-0dd9-dbea934e2454",
+			"headers": "//Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost/post/fquote/coco",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598432251409,
+			"name": "final_godigit",
+			"description": "",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"responses": [],
+			"rawModeData": "{\n\"makemodel\":\"dddd\",\n\"rtolocation\":\"AP-29\",\n\"vregnum\":\"AP29cb2541\",\n\"mfgyear\":\"2019\",\n\"cpa\":\"Yes\",\n\"roadtax\":\"Yes\",\n\"pa\":\"Yes\",\n\"rsa\":\"Yes\",\n\"zd\":\"Yes\",\n\"ep\":\"Yes\",\n\"consu\":\"Yes\",\n\"tyrep\":\"Yes\",\n\"kr\":\"Yes\",\n\"rti\":\"Yes\",\n\"ncbp\":\"Yes\",\n\"condr\":\"Yes\",\n\"lpb\":\"Yes\",\n\"rtppd\":\"Yes\",\n\"regdate1\":\"21/08/2019\",\n\"policyexp\":\"21/08/2020\",\n\"vncb\":\"40\",\n\"currentncb\":\"20\",\n\"setidv\":\"20\",\n\"previouscliam1\":\"NO\",\n\"img\":\"Yes\",\n\"idv\":\"80000\",\n\"go1_totalgrosspremium\":\"2500\",\n\"anti\":\"Yes\",\n\"auto\":\"Yes\"\n}"
+		},
+		{
+			"id": "7c8c32da-1d70-5e7d-d528-a392c8e0f443",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/post/vehicledetails",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598438471994,
+			"name": "Vehicledetails",
+			"description": "",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"responses": [],
+			"rawModeData": "{\r\n\"makemodel\":\"bajaj\",\r\n\"rtolocation\":\"Ap-09-Guntur\",\r\n\"vregnum\":\"Ap-09-cd-2255\",\r\n\"mfgyear\":\"2019\",\r\n\"venginenum\":\"55664655342\",\r\n\"vchassisnum\":\"657533356\",\r\n\"preinsurer\":\"Godigit\",\r\n\"policyno\":\"5223246767\",\r\n\"prepoled\":\"21-07-2020\",\r\n\"prepolsd\":\"21-07-2019\",\r\n\"vfin\":\"yes\",\r\n\"finname1\":\"A.G.institutions\",\r\n\"photo\":\"ram\",\r\n\"go1_totalgrosspremium\":\"45678.89\"\r\n\r\n}"
+		},
+		{
+			"id": "7eb1d73e-99ad-31f8-4f45-db544a7bcf00",
+			"headers": "//Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost/post/fquote/future",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "future",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598432353045,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "0d343fe6-d430-6089-0675-8ae23f146e44",
+			"rawModeData": "{\n\"makemodel\":\"dddd\",\n\"rtolocation\":\"AP-29\",\n\"vregnum\":\"AP29cb2541\",\n\"mfgyear\":\"2019\",\n\"cpa\":\"Yes\",\n\"roadtax\":\"Yes\",\n\"pa\":\"Yes\",\n\"rsa\":\"Yes\",\n\"zd\":\"Yes\",\n\"ep\":\"Yes\",\n\"consu\":\"Yes\",\n\"tyrep\":\"Yes\",\n\"kr\":\"Yes\",\n\"rti\":\"Yes\",\n\"ncbp\":\"Yes\",\n\"condr\":\"Yes\",\n\"lpb\":\"Yes\",\n\"rtppd\":\"Yes\",\n\"regdate1\":\"21/08/2019\",\n\"policyexp\":\"21/08/2020\",\n\"vncb\":\"40\",\n\"currentncb\":\"20\",\n\"setidv\":\"20\",\n\"previouscliam1\":\"NO\",\n\"img\":\"Yes\",\n\"idv\":\"80000\",\n\"go1_totalgrosspremium\":\"2500\",\n\"anti\":\"Yes\",\n\"auto\":\"Yes\"\n}"
+		},
+		{
+			"id": "8aba603c-e850-1bca-8430-dbdd4fee273b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/post/gmc",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "gmc",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598502544051,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\"name\":\"manasa\",\r\n\"buy_new_policy\":\"fdgfg\",\r\n\"manufacturing\":\"2019\",\r\n\"type_of_insurance\":\"mils\",\r\n\"sum_insured\":\"56789\",\r\n\"email\":\"mm@gmail.com\",\r\n\"contact\":\"8989898989\",\r\n\"description\":\"dgfdtedhgf\",\r\n\"posp_id\":\"P0000011\"\r\n}"
+		},
+		{
+			"id": "944fece4-44b3-1244-ee4f-5d7bb0c395e6",
+			"headers": "//Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost/post/fquote/icici",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "icici",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598432481802,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "0d343fe6-d430-6089-0675-8ae23f146e44",
+			"rawModeData": "{\n\"makemodel\":\"dddd\",\n\"rtolocation\":\"AP-29\",\n\"vregnum\":\"AP29cb2541\",\n\"mfgyear\":\"2019\",\n\"cpa\":\"Yes\",\n\"roadtax\":\"Yes\",\n\"pa\":\"Yes\",\n\"rsa\":\"Yes\",\n\"zd\":\"Yes\",\n\"ep\":\"Yes\",\n\"consu\":\"Yes\",\n\"tyrep\":\"Yes\",\n\"kr\":\"Yes\",\n\"rti\":\"Yes\",\n\"ncbp\":\"Yes\",\n\"condr\":\"Yes\",\n\"lpb\":\"Yes\",\n\"rtppd\":\"Yes\",\n\"regdate1\":\"21/08/2019\",\n\"policyexp\":\"21/08/2020\",\n\"vncb\":\"40\",\n\"currentncb\":\"20\",\n\"setidv\":\"20\",\n\"previouscliam1\":\"NO\",\n\"img\":\"Yes\",\n\"idv\":\"80000\",\n\"go1_totalgrosspremium\":\"2500\",\n\"anti\":\"Yes\",\n\"auto\":\"Yes\"\n}"
+		},
+		{
+			"id": "a3dc5b8e-5183-4c0b-6334-154b78384d80",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/post/fire",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "fire",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598502271014,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\"name\":\"manasa\",\r\n\"buy_new_policy\":\"fdgfg\",\r\n\"manufacturing\":\"2019\",\r\n\"type_of_insurance\":\"mils\",\r\n\"sum_insured\":\"56789\",\r\n\"email\":\"mm@gmail.com\",\r\n\"contact\":\"8989898989\",\r\n\"description\":\"dgfdtedhgf\",\r\n\"posp_id\":\"P0000011\"\r\n}"
+		},
+		{
+			"id": "a3edadc7-ad9a-8e67-fbed-960ec7e7ec69",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/post/mils",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "mils",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598502605493,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\"name\":\"manasa\",\r\n\"buy_new_policy\":\"fdgfg\",\r\n\"manufacturing\":\"2019\",\r\n\"type_of_insurance\":\"mils\",\r\n\"sum_insured\":\"56789\",\r\n\"email\":\"mm@gmail.com\",\r\n\"contact\":\"8989898989\",\r\n\"description\":\"dgfdtedhgf\",\r\n\"posp_id\":\"P0000011\"\r\n}"
+		},
+		{
+			"id": "a790c1ab-ea9d-f822-0b42-709ffb3e13b4",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/post/gpa",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "gpa",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598502562042,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\"name\":\"manasa\",\r\n\"buy_new_policy\":\"fdgfg\",\r\n\"manufacturing\":\"2019\",\r\n\"type_of_insurance\":\"mils\",\r\n\"sum_insured\":\"56789\",\r\n\"email\":\"mm@gmail.com\",\r\n\"contact\":\"8989898989\",\r\n\"description\":\"dgfdtedhgf\",\r\n\"posp_id\":\"P0000011\"\r\n}"
+		},
+		{
+			"id": "b849f299-db1e-b707-fb8e-d6b86f6ed1f7",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/post/pdf/godigit",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598527642669,
+			"name": "pdf/godigit",
+			"description": "",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"responses": [],
+			"rawModeData": "{\r\n\"godigicomp_schedule_path_hc\":\"http://localhost/php/Post/reliancePaym/\"\r\n}"
+		},
+		{
+			"id": "bcfdc22e-79d5-c4b7-50fb-b2931b1d0475",
+			"headers": "//Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost/post/fquote/shriram",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "shriram",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598432451370,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "0d343fe6-d430-6089-0675-8ae23f146e44",
+			"rawModeData": "{\n\"makemodel\":\"dddd\",\n\"rtolocation\":\"AP-29\",\n\"vregnum\":\"AP29cb2541\",\n\"mfgyear\":\"2019\",\n\"cpa\":\"Yes\",\n\"roadtax\":\"Yes\",\n\"pa\":\"Yes\",\n\"rsa\":\"Yes\",\n\"zd\":\"Yes\",\n\"ep\":\"Yes\",\n\"consu\":\"Yes\",\n\"tyrep\":\"Yes\",\n\"kr\":\"Yes\",\n\"rti\":\"Yes\",\n\"ncbp\":\"Yes\",\n\"condr\":\"Yes\",\n\"lpb\":\"Yes\",\n\"rtppd\":\"Yes\",\n\"regdate1\":\"21/08/2019\",\n\"policyexp\":\"21/08/2020\",\n\"vncb\":\"40\",\n\"currentncb\":\"20\",\n\"setidv\":\"20\",\n\"previouscliam1\":\"NO\",\n\"img\":\"Yes\",\n\"idv\":\"80000\",\n\"go1_totalgrosspremium\":\"2500\",\n\"anti\":\"Yes\",\n\"auto\":\"Yes\"\n}"
+		},
+		{
+			"id": "efb6ac05-884c-0a80-92df-54099f428e36",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/post/insuredetails",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598435355982,
+			"name": "Insure Details",
+			"description": "",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"responses": [],
+			"rawModeData": "{\r\n\"makemodel\":\"bajaj\",\r\n\"rtolocation\":\"Ap-09-Guntur\",\r\n\"vregnum\":\"Ap-09-cd-2255\",\r\n\"mfgyear\":\"2019\",\r\n\"title\":\"ms\",\r\n\"cgender\":\"female\",\r\n\"cfname\":\"manasa\",\r\n\"clname\":\"murala\",\r\n\"caadhar\":\"517241671005\",\r\n\"cpan\":\"BH56J788F8\",\r\n\"cmobile\":\"9502842438\",\r\n\"cdob\":\"12-11-1997\",\r\n\"coccup\":\"student\",\r\n\"cnname\":\"ram\",\r\n\"cnage\":\"45\",\r\n\"crship\":\"father\",\r\n\"compname\":\"company\",\r\n\"nob\":\"developer\",\r\n\"doi\":\"2017\",\r\n\"compmail\":\"info.k@info.com\",\r\n\"gst\":\"10\",\r\n\"comppan\":\"GH6689G989\",\r\n\"compcpname\":\"david\",\r\n\"compcprelation\":\"collegue\",\r\n\"photo\":\"photo\",\r\n\"go1_totalgrosspremium\":\"45678.89\"\r\n}"
+		},
+		{
+			"id": "fc08e781-97fe-6ee9-da5d-96591c9d191e",
+			"headers": "//Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost/post/fquote/royal",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4027f8ce-496d-87ae-c4c1-e6f298017db4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "royal",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598432310978,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "0d343fe6-d430-6089-0675-8ae23f146e44",
+			"rawModeData": "{\n\"makemodel\":\"dddd\",\n\"rtolocation\":\"AP-29\",\n\"vregnum\":\"AP29cb2541\",\n\"mfgyear\":\"2019\",\n\"cpa\":\"Yes\",\n\"roadtax\":\"Yes\",\n\"pa\":\"Yes\",\n\"rsa\":\"Yes\",\n\"zd\":\"Yes\",\n\"ep\":\"Yes\",\n\"consu\":\"Yes\",\n\"tyrep\":\"Yes\",\n\"kr\":\"Yes\",\n\"rti\":\"Yes\",\n\"ncbp\":\"Yes\",\n\"condr\":\"Yes\",\n\"lpb\":\"Yes\",\n\"rtppd\":\"Yes\",\n\"regdate1\":\"21/08/2019\",\n\"policyexp\":\"21/08/2020\",\n\"vncb\":\"40\",\n\"currentncb\":\"20\",\n\"setidv\":\"20\",\n\"previouscliam1\":\"NO\",\n\"img\":\"Yes\",\n\"idv\":\"80000\",\n\"go1_totalgrosspremium\":\"2500\",\n\"anti\":\"Yes\",\n\"auto\":\"Yes\"\n}"
+		}
+	]
+}
